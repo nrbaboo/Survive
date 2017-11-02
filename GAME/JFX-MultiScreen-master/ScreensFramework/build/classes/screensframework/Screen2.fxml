@@ -1,0 +1,1670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+/*-
+ * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.-
+ *-
+ * Copyright (c) 2013 Oracle and/or its affiliates. All rights reserved.-
+ *-
+ * The contents of this file are subject to the terms of either the GNU-
+ * General Public License Version 2 only ("GPL") or the Common Development-
+ * and Distribution License("CDDL") (collectively, the "License"). You-
+ * may not use this file except in compliance with the License. You can-
+ * obtain a copy of the License at-
+ * https://glassfish.dev.java.net/public/CDDL+GPL_1_1.html-
+ * or packager/legal/LICENSE.txt.  See the License for the specific-
+ * language governing permissions and limitations under the License.-
+ *-
+ * When distributing the software, include this License Header Notice in each-
+ * file and include the License file at packager/legal/LICENSE.txt.-
+ *-
+ * GPL Classpath Exception:-
+ * Oracle designates this particular file as subject to the "Classpath"-
+ * exception as provided by Oracle in the GPL Version 2 section of the License-
+ * file that accompanied this code.-
+ *-
+ * Modifications:-
+ * If applicable, add the following below the License Header, with the fields-
+ * enclosed by brackets [] replaced by your own identifying information:-
+ * "Portions Copyright [year] [name of copyright owner]"-
+ *-
+ * Contributor(s):-
+ * If you wish your version of this file to be governed by only the CDDL or-
+ * only the GPL Version 2, indicate your decision by adding "[Contributor]-
+ * elects to include this software in this distribution under the [CDDL or GPL-
+ * Version 2] license."  If you don't indicate a single choice of license, a-
+ * recipient has the option to distribute your version of this file under-
+ * either the CDDL, the GPL Version 2 or to extend the choice of license to-
+ * its licensees as provided above.  However, if you add GPL Version 2 code-
+ * and therefore, elected the GPL Version 2 license, then the option applies-
+ * only if the new code is made subject to such option by the copyright-
+ * holder.-
+ */ -
+-->
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="screensframework.Screen2Controller">
+   <children>
+      <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity">
+         <children>
+            <ImageView fx:id="bg_img" fitHeight="1024.0" fitWidth="1280.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Pic/x2.jpg" />
+               </image>
+            </ImageView>
+            <VBox layoutX="16.0" layoutY="90.0" onMouseClicked="#clickAll" prefHeight="918.0" prefWidth="910.0">
+               <children>
+                  <HBox prefHeight="70.0" prefWidth="910.0">
+                     <children>
+                        <ImageView fx:id="pic1" fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/island2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic2" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickIsland" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/island2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic3" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic4" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic5" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic6" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic7" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic8" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic9" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic10" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic11" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic12" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickIsland" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/island2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic13" fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/island2.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="70.0" prefWidth="910.0">
+                     <children>
+                        <ImageView fx:id="pic14" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickIsland" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/island2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic15" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickIsland" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/island2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic16" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic17" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic18" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic19" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic20" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic21" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic22" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic23" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic24" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic25" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickIsland" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/island2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic26" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickIsland" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/island2.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="70.0" prefWidth="910.0">
+                     <children>
+                        <ImageView fx:id="pic27" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic28" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic29" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic30" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic31" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Boat.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic32" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Boat.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic33" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Boat.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic34" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Boat.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic35" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Boat.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic36" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic37" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic38" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic39" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="70.0" prefWidth="910.0">
+                     <children>
+                        <ImageView fx:id="pic40" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic41" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic42" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic43" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Boat.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic44" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickSand" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Sand2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic45" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickSand" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Sand2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic46" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickSand" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Sand2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic47" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickSand" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Sand2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic48" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickSand" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Sand2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic49" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Boat.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic50" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic51" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic52" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="70.0" prefWidth="910.0">
+                     <children>
+                        <ImageView fx:id="pic53" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic54" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic55" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Boat.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic56" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickSand" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Sand2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic57" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickSand" pickOnBounds="true" preserveRatio="true">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <image>
+                              <Image url="@../Pic/Sand2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic58" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickForrest" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Forrest2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic59" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickForrest" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Forrest2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic60" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickForrest" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Forrest2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic61" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickSand" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Sand2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic62" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickSand" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Sand2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic63" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Boat.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic64" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic65" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="70.0" prefWidth="910.0">
+                     <children>
+                        <ImageView fx:id="pic66" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic67" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic68" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Boat.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic69" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickSand" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Sand2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic70" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickForrest" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Forrest2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic71" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickStone" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Stone2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic72" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickStone" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Stone2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic73" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickStone" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Stone2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic74" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickForrest" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Forrest2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic75" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickSand" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Sand2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic76" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Boat.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic77" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic78" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="70.0" prefWidth="910.0">
+                     <children>
+                        <ImageView fx:id="pic79" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic80" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic81" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Boat.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic82" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickSand" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Sand2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic83" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickForrest" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Forrest2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic84" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickStone" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Stone2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic85" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic86" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickStone" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Stone2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic87" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickForrest" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Forrest2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic88" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickSand" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Sand2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic89" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Boat.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic90" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic91" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="70.0" prefWidth="910.0">
+                     <children>
+                        <ImageView fx:id="pic92" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic93" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic94" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Boat.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic95" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickSand" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Sand2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic96" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickForrest" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Forrest2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic97" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickStone" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Stone2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic98" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickStone" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Stone2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic99" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickStone" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Stone2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic100" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickForrest" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Forrest2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic101" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickSand" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Sand2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic102" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Boat.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic103" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic104" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="70.0" prefWidth="910.0">
+                     <children>
+                        <ImageView fx:id="pic105" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic106" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic107" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Boat.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic108" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickSand" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Sand2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic109" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickSand" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Sand2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic110" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickForrest" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Forrest2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic111" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickForrest" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Forrest2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic112" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickForrest" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Forrest2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic113" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickSand" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Sand2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic114" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickSand" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Sand2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic115" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Boat.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic116" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic117" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="70.0" prefWidth="910.0">
+                     <children>
+                        <ImageView fx:id="pic118" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic119" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic120" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic121" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Boat.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic122" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickSand" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Sand2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic123" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickSand" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Sand2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic124" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickSand" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Sand2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic125" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickSand" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Sand2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic126" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickSand" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Sand2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic127" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Boat.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic128" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic129" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic130" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="70.0" prefWidth="910.0">
+                     <children>
+                        <ImageView fx:id="pic131" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic132" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic133" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic134" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic135" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Boat.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic136" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Boat.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic137" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Boat.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic138" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Boat.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic139" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Boat.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic140" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic141" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic142" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic143" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="70.0" prefWidth="910.0">
+                     <children>
+                        <ImageView fx:id="pic144" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickIsland" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/island2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic145" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickIsland" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/island2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic146" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic147" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic148" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic149" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic150" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic151" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic152" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic153" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic154" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic155" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickIsland" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/island2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic156" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickIsland" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/island2.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="70.0" prefWidth="910.0">
+                     <children>
+                        <ImageView fx:id="pic157" fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/island2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic158" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickIsland" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/island2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic159" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic160" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic161" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic162" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic163" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic164" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic165" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic166" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic167" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickWater" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/Water2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic168" fitHeight="70.0" fitWidth="70.0" onMouseClicked="#clickIsland" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/island2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pic169" fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pic/island2.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+               </children>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </VBox>
+            <Button fx:id="btnReady" layoutX="805.0" layoutY="17.0" mnemonicParsing="false" onMouseClicked="#btnReady" prefHeight="53.0" prefWidth="117.0" text="Ready">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Label fx:id="label4" layoutX="1161.0" layoutY="699.0" prefHeight="21.0" prefWidth="111.0" rotate="-7.1" text="Label" textFill="WHITE">
+               <font>
+                  <Font name="Edo SZ" size="15.0" />
+               </font></Label>
+            <Label fx:id="label3" layoutX="1169.0" layoutY="502.0" prefHeight="21.0" prefWidth="102.0" text="Label" textFill="WHITE">
+               <font>
+                  <Font name="Edo SZ" size="15.0" />
+               </font></Label>
+            <Label fx:id="label1" layoutX="1162.0" layoutY="93.0" prefHeight="21.0" prefWidth="109.0" rotate="5.7" text="Label" textFill="WHITE">
+               <font>
+                  <Font name="Edo SZ" size="16.0" />
+               </font></Label>
+            <Label fx:id="label2" layoutX="1158.0" layoutY="278.0" prefHeight="21.0" prefWidth="114.0" rotate="-4.8" text="Label" textFill="WHITE">
+               <font>
+                  <Font name="Edo SZ" size="15.0" />
+               </font></Label>
+            <Button layoutX="1087.0" layoutY="985.0" mnemonicParsing="false" onAction="#goToScreen3" text="Go To Screen3" visible="false" />
+            <Button layoutX="940.0" layoutY="985.0" mnemonicParsing="false" onAction="#goToScreen1" text="Go to Screen1" visible="false" />
+            <Label fx:id="labelfree" layoutX="654.0" layoutY="25.0" text="Screen 2" visible="false">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="playerone1" fitHeight="35.0" fitWidth="35.0" layoutX="448.0" layoutY="320.0" onMouseClicked="#clickPlayerOne" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p1.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playerone2" fitHeight="35.0" fitWidth="35.0" layoutX="394.0" layoutY="390.0" onMouseClicked="#clickPlayerOne" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p1.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playerone3" fitHeight="35.0" fitWidth="35.0" layoutX="592.0" layoutY="395.0" onMouseClicked="#clickPlayerOne" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p1.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playerone4" fitHeight="35.0" fitWidth="35.0" layoutX="239.0" layoutY="460.0" onMouseClicked="#clickPlayerOne" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p1.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playerone5" fitHeight="35.0" fitWidth="35.0" layoutX="590.0" layoutY="460.0" onMouseClicked="#clickPlayerOne" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p1.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playerone6" fitHeight="35.0" fitWidth="35.0" layoutX="383.0" layoutY="604.0" onMouseClicked="#clickPlayerOne" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p1.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playerone7" fitHeight="35.0" fitWidth="35.0" layoutX="518.0" layoutY="606.0" onMouseClicked="#clickPlayerOne" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p1.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playerone8" fitHeight="35.0" fitWidth="35.0" layoutX="666.0" layoutY="609.0" onMouseClicked="#clickPlayerOne" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p1.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playerone9" fitHeight="35.0" fitWidth="35.0" layoutX="444.0" layoutY="670.0" onMouseClicked="#clickPlayerOne" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p1.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playerone10" fitHeight="35.0" fitWidth="35.0" layoutX="322.0" layoutY="737.0" onMouseClicked="#clickPlayerOne" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p1.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playerone11" fitHeight="35.0" fitWidth="35.0" layoutX="577.0" layoutY="740.0" onMouseClicked="#clickPlayerOne" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p1.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="btnMove1" layoutX="1000.0" layoutY="900.0" mnemonicParsing="false" onMouseClicked="#btnMove1" prefHeight="70.0" prefWidth="220.0" style="-fx-background-color: FFFFFF;" text="End Move" visible="false">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnMove2" layoutX="1000.0" layoutY="900.0" mnemonicParsing="false" onMouseClicked="#btnMove2" prefHeight="70.0" prefWidth="220.0" style="-fx-background-color: FFFFFF;" text="End Move" visible="false">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <ImageView fx:id="shark2" fitHeight="35.0" fitWidth="35.0" layoutX="743.0" layoutY="238.0" onMouseClicked="#clickShark" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/Shark.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="shark1" fitHeight="35.0" fitWidth="35.0" layoutX="168.0" layoutY="242.0" onMouseClicked="#clickShark" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/Shark.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="shark4" fitHeight="35.0" fitWidth="35.0" layoutX="746.0" layoutY="813.0" onMouseClicked="#clickShark" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/Shark.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="shark3" fitHeight="35.0" fitWidth="35.0" layoutX="167.0" layoutY="815.0" onMouseClicked="#clickShark" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/Shark.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="shark5" fitHeight="35.0" fitWidth="35.0" layoutX="449.0" layoutY="533.0" onMouseClicked="#clickShark" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/Shark.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="shark6" fitHeight="35.0" fitWidth="35.0" layoutX="997.0" layoutY="966.0" onMouseClicked="#clickShark" pickOnBounds="true" preserveRatio="true" visible="false">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/Shark.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="shark7" fitHeight="35.0" fitWidth="35.0" layoutX="979.0" layoutY="824.0" onMouseClicked="#clickShark" pickOnBounds="true" preserveRatio="true" visible="false">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/Shark.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="shark8" fitHeight="35.0" fitWidth="35.0" layoutX="938.0" layoutY="809.0" onMouseClicked="#clickShark" pickOnBounds="true" preserveRatio="true" visible="false">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/Shark.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="shark9" fitHeight="35.0" fitWidth="35.0" layoutX="944.0" layoutY="917.0" onMouseClicked="#clickShark" pickOnBounds="true" preserveRatio="true" visible="false">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/Shark.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="shark10" fitHeight="35.0" fitWidth="35.0" layoutX="944.0" layoutY="861.0" onMouseClicked="#clickShark" pickOnBounds="true" preserveRatio="true" visible="false">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/Shark.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="shark11" fitHeight="35.0" fitWidth="35.0" layoutX="985.0" layoutY="917.0" onMouseClicked="#clickShark" pickOnBounds="true" preserveRatio="true" visible="false">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/Shark.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="shark12" fitHeight="35.0" fitWidth="35.0" layoutX="955.0" layoutY="965.0" onMouseClicked="#clickShark" pickOnBounds="true" preserveRatio="true" visible="false">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/Shark.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="shark13" fitHeight="35.0" fitWidth="35.0" layoutX="1034.0" layoutY="823.0" onMouseClicked="#clickShark" pickOnBounds="true" preserveRatio="true" visible="false">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/Shark.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="shark14" fitHeight="35.0" fitWidth="35.0" layoutX="990.0" layoutY="861.0" onMouseClicked="#clickShark" pickOnBounds="true" preserveRatio="true" visible="false">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/Shark.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="btnMove3" layoutX="1000.0" layoutY="900.0" mnemonicParsing="false" onMouseClicked="#btnMove3" prefHeight="70.0" prefWidth="220.0" style="-fx-background-color: FFFFFF;" text="End Move" visible="false">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnMove4" layoutX="1000.0" layoutY="900.0" mnemonicParsing="false" onMouseClicked="#btnMove4" prefHeight="70.0" prefWidth="220.0" style="-fx-background-color: FFFFFF;" text="End Move" visible="false">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <ImageView fx:id="playertwo1" fitHeight="35.0" fitWidth="35.0" layoutX="389.0" layoutY="323.0" onMouseClicked="#clickPlayerTwo" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playertwo2" fitHeight="35.0" fitWidth="35.0" layoutX="241.0" layoutY="389.0" onMouseClicked="#clickPlayerTwo" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playertwo3" fitHeight="35.0" fitWidth="35.0" layoutX="521.0" layoutY="395.0" onMouseClicked="#clickPlayerTwo" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playertwo4" fitHeight="35.0" fitWidth="35.0" layoutX="385.0" layoutY="462.0" onMouseClicked="#clickPlayerTwo" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playertwo5" fitHeight="35.0" fitWidth="35.0" layoutX="312.0" layoutY="535.0" onMouseClicked="#clickPlayerTwo" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playertwo6" fitHeight="35.0" fitWidth="35.0" layoutX="527.0" layoutY="531.0" onMouseClicked="#clickPlayerTwo" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playertwo7" fitHeight="35.0" fitWidth="35.0" layoutX="665.0" layoutY="532.0" onMouseClicked="#clickPlayerTwo" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playertwo8" fitHeight="35.0" fitWidth="35.0" layoutX="241.0" layoutY="679.0" onMouseClicked="#clickPlayerTwo" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playertwo9" fitHeight="35.0" fitWidth="35.0" layoutX="379.0" layoutY="671.0" onMouseClicked="#clickPlayerTwo" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playertwo10" fitHeight="35.0" fitWidth="35.0" layoutX="591.0" layoutY="674.0" onMouseClicked="#clickPlayerTwo" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playertwo11" fitHeight="35.0" fitWidth="35.0" layoutX="520.0" layoutY="737.0" onMouseClicked="#clickPlayerTwo" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playerthree1" fitHeight="35.0" fitWidth="35.0" layoutX="524.0" layoutY="321.0" onMouseClicked="#clickPlayerThree" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p3.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playerthree2" fitHeight="35.0" fitWidth="35.0" layoutX="318.0" layoutY="394.0" onMouseClicked="#clickPlayerThree" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p3.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playerthree3" fitHeight="35.0" fitWidth="35.0" layoutX="656.0" layoutY="400.0" onMouseClicked="#clickPlayerThree" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p3.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playerthree4" fitHeight="35.0" fitWidth="35.0" layoutX="450.0" layoutY="461.0" onMouseClicked="#clickPlayerThree" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p3.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playerthree5" fitHeight="35.0" fitWidth="35.0" layoutX="519.0" layoutY="463.0" onMouseClicked="#clickPlayerThree" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p3.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playerthree6" fitHeight="35.0" fitWidth="35.0" layoutX="239.0" layoutY="530.0" onMouseClicked="#clickPlayerThree" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p3.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playerthree7" fitHeight="35.0" fitWidth="35.0" layoutX="590.0" layoutY="532.0" onMouseClicked="#clickPlayerThree" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p3.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playerthree8" fitHeight="35.0" fitWidth="35.0" layoutX="312.0" layoutY="605.0" onMouseClicked="#clickPlayerThree" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p3.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playerthree9" fitHeight="35.0" fitWidth="35.0" layoutX="518.0" layoutY="670.0" onMouseClicked="#clickPlayerThree" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p3.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playerthree10" fitHeight="35.0" fitWidth="35.0" layoutX="666.0" layoutY="675.0" onMouseClicked="#clickPlayerThree" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p3.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playerthree11" fitHeight="35.0" fitWidth="35.0" layoutX="380.0" layoutY="740.0" onMouseClicked="#clickPlayerThree" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p3.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playerfour1" fitHeight="35.0" fitWidth="35.0" layoutX="318.0" layoutY="325.0" onMouseClicked="#clickPlayerFour" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p4.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playerfour2" fitHeight="35.0" fitWidth="35.0" layoutX="587.0" layoutY="325.0" onMouseClicked="#clickPlayerFour" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p4.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playerfour3" fitHeight="35.0" fitWidth="35.0" layoutX="448.0" layoutY="390.0" onMouseClicked="#clickPlayerFour" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p4.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playerfour4" fitHeight="35.0" fitWidth="35.0" layoutX="318.0" layoutY="460.0" onMouseClicked="#clickPlayerFour" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p4.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playerfour5" fitHeight="35.0" fitWidth="35.0" layoutX="661.0" layoutY="470.0" onMouseClicked="#clickPlayerFour" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p4.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playerfour6" fitHeight="35.0" fitWidth="35.0" layoutX="382.0" layoutY="534.0" onMouseClicked="#clickPlayerFour" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p4.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playerfour7" fitHeight="35.0" fitWidth="35.0" layoutX="242.0" layoutY="600.0" onMouseClicked="#clickPlayerFour" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p4.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playerfour8" fitHeight="35.0" fitWidth="35.0" layoutX="454.0" layoutY="606.0" onMouseClicked="#clickPlayerFour" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p4.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playerfour9" fitHeight="35.0" fitWidth="35.0" layoutX="590.0" layoutY="601.0" onMouseClicked="#clickPlayerFour" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p4.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playerfour10" fitHeight="35.0" fitWidth="35.0" layoutX="310.0" layoutY="676.0" onMouseClicked="#clickPlayerFour" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p4.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playerfour11" fitHeight="35.0" fitWidth="35.0" layoutX="446.0" layoutY="740.0" onMouseClicked="#clickPlayerFour" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+               <image>
+                  <Image url="@../Pic/p4.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="label_energy1" layoutX="1151.0" layoutY="119.0" prefHeight="21.0" prefWidth="53.0" rotate="9.5" text="0" textFill="WHITE">
+               <font>
+                  <Font name="Edo SZ" size="25.0" />
+               </font></Label>
+            <Label fx:id="label_energy2" layoutX="1149.0" layoutY="309.0" prefHeight="21.0" prefWidth="70.0" text="0" textFill="WHITE">
+               <font>
+                  <Font name="Edo SZ" size="25.0" />
+               </font></Label>
+            <Label fx:id="label_turn" layoutX="129.0" layoutY="29.0" prefHeight="21.0" prefWidth="136.0" text="Player 1" textFill="WHITE">
+               <font>
+                  <Font name="Edo SZ" size="21.0" />
+               </font></Label>
+            <Label fx:id="label_energy3" layoutX="1148.0" layoutY="525.0" prefHeight="21.0" prefWidth="57.0" text="0" textFill="WHITE">
+               <font>
+                  <Font name="Edo SZ" size="25.0" />
+               </font></Label>
+            <Label fx:id="label_energy4" layoutX="1145.0" layoutY="725.0" prefHeight="21.0" prefWidth="35.0" text="0" textFill="WHITE">
+               <font>
+                  <Font name="Edo SZ" size="25.0" />
+               </font></Label>
+            <Button fx:id="btnEnd1" layoutX="1000.0" layoutY="900.0" mnemonicParsing="false" onMouseClicked="#btnEnd1" prefHeight="70.0" prefWidth="220.0" style="-fx-background-color: FFFFFF;" text="End Turn" visible="false">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button fx:id="btnEnd2" layoutX="1000.0" layoutY="900.0" mnemonicParsing="false" onMouseClicked="#btnEnd2" prefHeight="70.0" prefWidth="220.0" style="-fx-background-color: FFFFFF;" text="End Turn" visible="false">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button fx:id="btnEnd3" layoutX="1000.0" layoutY="900.0" mnemonicParsing="false" onMouseClicked="#btnEnd3" prefHeight="70.0" prefWidth="220.0" style="-fx-background-color: FFFFFF;" text="End Turn" visible="false">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button fx:id="btnEnd4" layoutX="1000.0" layoutY="900.0" mnemonicParsing="false" onMouseClicked="#btnEnd4" prefHeight="70.0" prefWidth="220.0" style="-fx-background-color: FFFFFF;" text="End Turn" visible="false">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Label fx:id="command" layoutX="410.0" layoutY="22.0" prefHeight="39.0" prefWidth="454.0" text="Move person" textFill="WHITE">
+               <font>
+                  <Font name="Edo SZ" size="24.0" />
+               </font></Label>
+            <Label fx:id="label_sur1" layoutX="1057.0" layoutY="144.0" prefHeight="21.0" prefWidth="163.0" rotate="7.1" text="Survivor :                ">
+               <font>
+                  <Font name="Edo SZ" size="16.0" />
+               </font></Label>
+            <Label fx:id="label_sur2" layoutX="1061.0" layoutY="343.0" prefHeight="21.0" prefWidth="136.0" rotate="-5.2" text="Survivor :                ">
+               <font>
+                  <Font name="Edo SZ" size="15.0" />
+               </font></Label>
+            <Label fx:id="label_sur3" layoutX="1058.0" layoutY="556.0" prefHeight="21.0" prefWidth="136.0" text="Survivor :                ">
+               <font>
+                  <Font name="Edo SZ" size="15.0" />
+               </font></Label>
+            <Label fx:id="label_sur4" layoutX="1057.0" layoutY="762.0" prefHeight="21.0" prefWidth="136.0" rotate="-7.1" text="Survivor :                ">
+               <font>
+                  <Font name="Edo SZ" size="15.0" />
+               </font></Label>
+            <ImageView disable="true" fitHeight="303.0" fitWidth="294.0" layoutX="1000.0" layoutY="419.0" opacity="0.81" pickOnBounds="true" preserveRatio="true" rotate="180.0" translateX="-1010.0" translateY="-348.0">
+               <image>
+                  <Image url="@../Pic/palm3.gif" />
+               </image>
+            </ImageView>
+            <ImageView disable="true" fitHeight="303.0" fitWidth="294.0" layoutX="1010.0" layoutY="429.0" opacity="0.81" pickOnBounds="true" preserveRatio="true" rotate="180.0" translateX="-1020.0" translateY="287.0">
+               <image>
+                  <Image url="@../Pic/palm3.gif" />
+               </image>
+               <rotationAxis>
+                  <Point3D y="1.0" />
+               </rotationAxis>
+            </ImageView>
+            <ImageView disable="true" fitHeight="303.0" fitWidth="294.0" layoutX="1020.0" layoutY="439.0" opacity="0.91" pickOnBounds="true" preserveRatio="true" rotate="180.0" translateX="-294.0" translateY="-367.0">
+               <image>
+                  <Image url="@../Pic/palm3.gif" />
+               </image>
+               <rotationAxis>
+                  <Point3D x="1.0" />
+               </rotationAxis>
+            </ImageView>
+            <ImageView disable="true" fitHeight="303.0" fitWidth="294.0" layoutX="1030.0" layoutY="449.0" pickOnBounds="true" preserveRatio="true" translateX="-306.0" translateY="267.0">
+               <image>
+                  <Image url="@../Pic/palm3.gif" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <ImageView fx:id="picEnd" fitHeight="1024.0" fitWidth="1280.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../Pic/Endgame.png" />
+         </image>
+      </ImageView>
+      <Pane fx:id="panel_showwin" prefHeight="789.0" prefWidth="1280.0" visible="false">
+         <children>
+            <Label fx:id="showPlayerwin" layoutX="492.0" layoutY="128.0" text="Random Score" textFill="WHITE">
+               <font>
+                  <Font name="Edo SZ" size="60.0" />
+               </font>
+            </Label>
+            <Label fx:id="scoreP2" layoutX="233.0" layoutY="455.0" text="survive P2" textFill="WHITE">
+               <font>
+                  <Font name="Edo SZ" size="37.0" />
+               </font>
+            </Label>
+            <Label fx:id="scoreP3" layoutX="233.0" layoutY="602.0" text="Survive P3" textFill="WHITE">
+               <font>
+                  <Font name="Edo SZ" size="37.0" />
+               </font>
+            </Label>
+            <Label fx:id="scoreP4" layoutX="229.0" layoutY="735.0" text="Survive P4" textFill="WHITE">
+               <font>
+                  <Font name="Edo SZ" size="37.0" />
+               </font>
+            </Label>
+            <Label fx:id="scoreP1" layoutX="235.0" layoutY="323.0" text="survive P1" textFill="WHITE">
+               <font>
+                  <Font name="Edo SZ" size="37.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="115.0" fitWidth="102.0" layoutX="118.0" layoutY="307.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Pic/umaruwallP1.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="115.0" fitWidth="102.0" layoutX="118.0" layoutY="445.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Pic/ginwallP2.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="115.0" fitWidth="102.0" layoutX="120.0" layoutY="586.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Pic/remwallP4.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="115.0" fitWidth="102.0" layoutX="118.0" layoutY="733.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Pic/harukawallP3.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="totalS1" layoutX="235.0" layoutY="363.0" text="Total score  :" textFill="WHITE">
+               <font>
+                  <Font name="Edo SZ" size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="totalS2" layoutX="231.0" layoutY="494.0" text="Total score  :" textFill="WHITE">
+               <font>
+                  <Font name="Edo SZ" size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="totalS3" layoutX="229.0" layoutY="641.0" text="Total score  :" textFill="WHITE">
+               <font>
+                  <Font name="Edo SZ" size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="totalS4" layoutX="231.0" layoutY="772.0" text="Total score  :" textFill="WHITE">
+               <font>
+                  <Font name="Edo SZ" size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <ImageView fx:id="card_img" fitHeight="564.0" fitWidth="782.0" onMouseClicked="#clickAll" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../Pic/Card1.png" />
+         </image>
+      </ImageView>
+   </children>
+</StackPane>

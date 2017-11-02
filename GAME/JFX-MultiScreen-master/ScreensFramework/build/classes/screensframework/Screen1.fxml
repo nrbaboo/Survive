@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+/*-
+ * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.-
+ *-
+ * Copyright (c) 2013 Oracle and/or its affiliates. All rights reserved.-
+ *-
+ * The contents of this file are subject to the terms of either the GNU-
+ * General Public License Version 2 only ("GPL") or the Common Development-
+ * and Distribution License("CDDL") (collectively, the "License"). You-
+ * may not use this file except in compliance with the License. You can-
+ * obtain a copy of the License at-
+ * https://glassfish.dev.java.net/public/CDDL+GPL_1_1.html-
+ * or packager/legal/LICENSE.txt.  See the License for the specific-
+ * language governing permissions and limitations under the License.-
+ *-
+ * When distributing the software, include this License Header Notice in each-
+ * file and include the License file at packager/legal/LICENSE.txt.-
+ *-
+ * GPL Classpath Exception:-
+ * Oracle designates this particular file as subject to the "Classpath"-
+ * exception as provided by Oracle in the GPL Version 2 section of the License-
+ * file that accompanied this code.-
+ *-
+ * Modifications:-
+ * If applicable, add the following below the License Header, with the fields-
+ * enclosed by brackets [] replaced by your own identifying information:-
+ * "Portions Copyright [year] [name of copyright owner]"-
+ *-
+ * Contributor(s):-
+ * If you wish your version of this file to be governed by only the CDDL or-
+ * only the GPL Version 2, indicate your decision by adding "[Contributor]-
+ * elects to include this software in this distribution under the [CDDL or GPL-
+ * Version 2] license."  If you don't indicate a single choice of license, a-
+ * recipient has the option to distribute your version of this file under-
+ * either the CDDL, the GPL Version 2 or to extend the choice of license to-
+ * its licensees as provided above.  However, if you add GPL Version 2 code-
+ * and therefore, elected the GPL Version 2 license, then the option applies-
+ * only if the new code is made subject to such option by the copyright-
+ * holder.-
+ */ -
+-->
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" minHeight="122.0" prefHeight="1024.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="screensframework.Screen1Controller">
+  <children>
+      <ImageView fitHeight="960.0" fitWidth="1289.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true" scaleY="1.08">
+         <image>
+            <Image url="@42093.jpg" />
+         </image>
+      </ImageView>
+  <Label layoutX="305.0" layoutY="44.0" text="SURVIVE" textFill="WHITE">
+    <font>
+      <Font name="Edo SZ" size="200.0" />
+    </font>
+  </Label>
+      <ImageView fx:id="pic1" fitHeight="1024.0" fitWidth="1280.0" layoutX="-19.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@text.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="label_start" layoutX="532.0" layoutY="478.0" onMouseClicked="#label_start" onMouseEntered="#label_enter" onMouseExited="#label_exit" prefHeight="121.0" prefWidth="233.0" text="START" textFill="WHITE">
+         <font>
+            <Font name="Edo SZ" size="69.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <Label fx:id="label_credit" layoutX="525.0" layoutY="729.0" onMouseClicked="#label_start3" onMouseEntered="#label_enter3" onMouseExited="#label_exit3" prefHeight="121.0" prefWidth="233.0" rotate="4.0" text="CREDIT" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Edo SZ" size="69.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_help" layoutX="529.0" layoutY="609.0" onMouseClicked="#label_start2" onMouseEntered="#label_enter2" onMouseExited="#label_exit2" prefHeight="121.0" prefWidth="233.0" text="HELP !" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Edo SZ" size="69.0" />
+         </font>
+      </Label>
+      <Pane fx:id="panel" layoutX="105.0" layoutY="224.0" prefHeight="305.0" prefWidth="319.0" visible="false">
+         <children>
+            <ImageView fitHeight="607.0" fitWidth="883.0" layoutX="89.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Pic/playername.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="tx1" layoutX="217.0" layoutY="432.0" prefHeight="31.0" prefWidth="135.0" />
+            <TextField fx:id="tx2" layoutX="381.0" layoutY="432.0" prefHeight="31.0" prefWidth="134.0" />
+            <TextField fx:id="tx3" layoutX="536.0" layoutY="433.0" prefHeight="31.0" prefWidth="138.0" />
+            <TextField fx:id="tx4" layoutX="693.0" layoutY="433.0" prefHeight="31.0" prefWidth="134.0" />
+            <Label fx:id="labelGo" layoutX="500.0" layoutY="501.0" onMouseClicked="#go" onMouseEntered="#go_enter" onMouseExited="#go_exit" text="Go">
+               <font>
+                  <Font name="Edo SZ" size="44.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+         </children>
+      </Pane>
+      <Pane fx:id="credit_pane" prefHeight="200.0" prefWidth="200.0" visible="false">
+         <children>
+            <ImageView fitHeight="1024.0" fitWidth="1280.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Pic/credit.jpg" />
+               </image>
+            </ImageView>
+            <Label fx:id="label_close" layoutX="425.0" layoutY="740.0" onMouseClicked="#label_close" onMouseEntered="#label_enter4" onMouseExited="#label_exit4" prefHeight="121.0" prefWidth="233.0" rotate="-6.3" text="Close" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="Edo SZ" size="69.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+  </children>
+</AnchorPane>

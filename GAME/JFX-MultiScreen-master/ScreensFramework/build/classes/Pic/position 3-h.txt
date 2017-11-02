@@ -1,0 +1,4 @@
+tree 1 rotate z 180 x-535 y-290
+tree 2 rotate x 180 x 200 y-290
+tree 3 rotate y 180 x-530 y 355
+tree 4 rotate z 0 x 200 y 355

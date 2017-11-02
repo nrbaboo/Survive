@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+/*-
+ * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.-
+ *-
+ * Copyright (c) 2013 Oracle and/or its affiliates. All rights reserved.-
+ *-
+ * The contents of this file are subject to the terms of either the GNU-
+ * General Public License Version 2 only ("GPL") or the Common Development-
+ * and Distribution License("CDDL") (collectively, the "License"). You-
+ * may not use this file except in compliance with the License. You can-
+ * obtain a copy of the License at-
+ * https://glassfish.dev.java.net/public/CDDL+GPL_1_1.html-
+ * or packager/legal/LICENSE.txt.  See the License for the specific-
+ * language governing permissions and limitations under the License.-
+ *-
+ * When distributing the software, include this License Header Notice in each-
+ * file and include the License file at packager/legal/LICENSE.txt.-
+ *-
+ * GPL Classpath Exception:-
+ * Oracle designates this particular file as subject to the "Classpath"-
+ * exception as provided by Oracle in the GPL Version 2 section of the License-
+ * file that accompanied this code.-
+ *-
+ * Modifications:-
+ * If applicable, add the following below the License Header, with the fields-
+ * enclosed by brackets [] replaced by your own identifying information:-
+ * "Portions Copyright [year] [name of copyright owner]"-
+ *-
+ * Contributor(s):-
+ * If you wish your version of this file to be governed by only the CDDL or-
+ * only the GPL Version 2, indicate your decision by adding "[Contributor]-
+ * elects to include this software in this distribution under the [CDDL or GPL-
+ * Version 2] license."  If you don't indicate a single choice of license, a-
+ * recipient has the option to distribute your version of this file under-
+ * either the CDDL, the GPL Version 2 or to extend the choice of license to-
+ * its licensees as provided above.  However, if you add GPL Version 2 code-
+ * and therefore, elected the GPL Version 2 license, then the option applies-
+ * only if the new code is made subject to such option by the copyright-
+ * holder.-
+ */ -
+-->
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" minWidth="174.0" prefHeight="1024.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="screensframework.Screen3Controller">
+  <children>
+      <ImageView fx:id="bg_img" fitHeight="1024.0" fitWidth="1280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pic/help1.jpg" />
+         </image>
+      </ImageView>
+  <Label layoutX="573.0" layoutY="18.0" text="Screen 3">
+    <font>
+      <Font size="18.0" />
+    </font>
+  </Label>
+  <Button layoutX="1115.0" layoutY="40.0" mnemonicParsing="false" onAction="#goToScreen2" text="Go To Screen2" visible="false" />
+      <Label fx:id="label_close" layoutX="1074.0" layoutY="894.0" onMouseClicked="#label_close" onMouseEntered="#close_enter" onMouseExited="#close_exit" prefHeight="97.0" prefWidth="138.0" text="Close" textFill="WHITE">
+         <font>
+            <Font name="Edo SZ" size="51.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <Label fx:id="next" layoutX="690.0" layoutY="835.0" onMouseClicked="#next" onMouseEntered="#next_enter" onMouseExited="#next_exit" prefHeight="97.0" prefWidth="205.0" rotate="-8.0" text="next">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Edo SZ" size="51.0" />
+         </font>
+      </Label>
+      <Label fx:id="back" layoutX="232.0" layoutY="891.0" onMouseClicked="#back_close" onMouseEntered="#back_enter" onMouseExited="#back_exit" prefHeight="97.0" prefWidth="169.0" rotate="-8.4" text="back" visible="false">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Edo SZ" size="51.0" />
+         </font>
+      </Label>
+  </children>
+</AnchorPane>
